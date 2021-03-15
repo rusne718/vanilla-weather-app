@@ -35,7 +35,6 @@ dateElement.innerHTML = showDate(currentTime);
 ///
 
 function displayWeatherCondition(response) {
-    console.log(response.data);
     document.querySelector("#city").innerHTML = 
     response.data.name;
     
@@ -51,7 +50,12 @@ function displayWeatherCondition(response) {
     document.querySelector("#wind").innerHTML = 
     Math.round(response.data.wind.speed
 );
-}
+
+    document.querySelector("#icon").setAttribute
+    ("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+
+};
+
 
 function searchCity(city) {   
     let apiKey = "6f7e1baed84ea4054c06ed6acbdcc429";
@@ -72,8 +76,6 @@ searchForm.addEventListener("submit", handleSubmit);
 
 searchCity("New York");
 
-
-///
 
 function searchLocation(position) {
     let apiKey = "6f7e1baed84ea4054c06ed6acbdcc429";

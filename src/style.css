@@ -37,7 +37,7 @@ button.btn-success {
   box-shadow: 1px 1px 1px 1px grey;
   position: relative;
   margin-left: 300px;
-  margin-top: -62px;
+  margin-top: -66px;
   font-family: "Benne", serif;
   font-family: "Newsreader", serif;
   color: black;
@@ -55,7 +55,8 @@ img {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -76,7 +77,7 @@ div.description {
   text-align: center;
   font-size: 20px;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -86,8 +87,8 @@ h3 {
   font-weight: 500;
 }
 
-h5,
-h6 {
+h4,
+h5 {
   font-size: 18px;
   position: relative;
   text-align: center;
@@ -108,99 +109,24 @@ p.week-days {
   margin-top: 30px;
 }
 
-.row .temperature {
+.units {
+  font-family: "Benne", serif;
+  font-family: "Newsreader", serif;
+}
+
+.row .forecast-temperature {
   margin-top: 10px;
-}
-
-.indicator .fa-snowflake {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  color: #a68fd3;
-  font-size: 45px;
-}
-
-.fa-cloud-moon {
-  color: pink;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.fa-cloud {
-  color: pink;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.fa-sun {
-  color: pink;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.fa-snowflake {
-  color: pink;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.saturday {
-  position: relative;
-  right: 80px;
-  line-height: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-}
-
-.sunday {
-  position: relative;
-  right: 35px;
-  line-height: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-}
-
-.monday {
-  position: relative;
-  right: -5px;
-  line-height: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-}
-
-.tuesday {
-  position: relative;
-  right: -45px;
-  line-height: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
-}
-
-.wednesday {
-  position: relative;
-  right: -80px;
-  line-height: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  display: inline-block;
-  text-align: center;
 }
 
 .code-source-link {
   position: relative;
   margin-left: 50px;
+  font-family: "Benne", serif;
+  font-family: "Newsreader", serif;
+  color: black;
 }
 
 .active {
-  color: black;
   cursor: default;
   text-decoration: none;
 }
